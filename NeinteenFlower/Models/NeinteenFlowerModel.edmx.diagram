@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e78b64bb48484aa6aa4589064b22673c" Name="Diagram1">
+        <EntityTypeShape EntityType="NeinteenFlowerDatabaseModel.MsEmployee" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NeinteenFlowerDatabaseModel.MsFlower" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NeinteenFlowerDatabaseModel.MsFlowerType" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NeinteenFlowerDatabaseModel.MsMember" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NeinteenFlowerDatabaseModel.TrDetail" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NeinteenFlowerDatabaseModel.TrHeader" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="NeinteenFlowerDatabaseModel.FK__TrHeader__Employ__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="NeinteenFlowerDatabaseModel.FK__MsFlower__Flower__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="NeinteenFlowerDatabaseModel.FK__TrDetail__Flower__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="NeinteenFlowerDatabaseModel.FK__TrHeader__Member__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="NeinteenFlowerDatabaseModel.FK__TrDetail__Transa__71D1E811" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
